@@ -1,0 +1,149 @@
+/* default */
+*{
+    padding: 0px;
+    margin:0px;
+}
+
+/* NavigationBar */
+#NavBar{
+    display:flex;
+    text-align: center;
+    /* justify-content: center; */
+    background-color:rgb(223, 10, 10);
+    
+}
+#NavBar div img{
+    height: 45px;
+    width: 53px;
+    padding: 0px 13px;
+    margin: 7px 8px;
+    border-radius: 34px;
+}
+#NavBar ul{
+    display:flex;
+    list-style: none;
+    padding: 11px;
+    margin: 11px;
+}
+#NavBar ul li a{
+    padding: 5px;
+    margin: 20px;
+    text-decoration: none;
+    color:white;
+
+}
+#NavBar ul li :hover{
+
+    color:rgb(190, 171, 171);
+    border:2px solid rgb(8, 8, 8);
+    border-radius: 20px;
+
+}
+
+/* home-section */
+#home-section{
+    display:flex;
+    flex-direction: column;
+    height:345px;
+    width:100%;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+   
+    
+
+}
+#home-section::before{
+    content: '';
+    position: absolute;
+    background-image: url(/img/img1.jpg);
+    background-position: center center;
+    background-size: 1600px 637px;
+    background-repeat: no-repeat;
+    height: 55%;
+    width: 100%;
+    z-index:-1;
+    opacity: 0.2;
+}
+#home-section div h1{
+    display:inline-block;
+    margin:auto;
+    color:rgb(27, 228, 218);
+    background-color: rgb(83, 77, 77);
+
+}
+#home-section div p{
+    padding:50px;
+    margin:5px;
+}
+#home-section div .btn{
+    color:black;
+    font-weight: bold;
+    background-color:rgb(10, 243, 243);
+    border:2px solid  rgb(247, 75, 7);
+    border-radius:5px;
+    cursor: pointer;
+    padding:6px;
+    margin:19px;
+}
+#home-section div .btn:hover{
+    padding:9px;
+    margin:22px;
+}
+/* services section */
+#services-section{
+                   display:block;
+                   height:510px;
+                   width:100%;
+                   background-color:#002244;
+                   /* border:2px solid black; */
+
+}
+ #services-section div h1{
+    display:block;
+    width:100%;
+    text-align: center;
+    margin:auto;
+    color:white;
+    background-color: black;
+} 
+#services-section div img{
+    display: block;
+    margin: auto;
+    width: 245px;
+    height: 175px;
+}
+#services-section div p{
+    display:block;
+    width:18%;
+    text-align: center;
+    margin:auto;
+} 
+#time{
+    background-color: aqua;
+    width:40%;
+
+}
+#services-section div img:hover{
+    width:275px;
+    height:190px;
+    border:5px solid black;
+}
+.recent{
+    border:2px solid orange;
+    background-image: radial-gradient(ellipse at right,lightgreen,yellow,white);
+}
+.recent:hover{
+    border:5px solid orangered;
+    font-weight: bolder;
+   
+}
+.model{
+    border:orange;
+    background-color: rgb(160, 163, 128);
+    color:black;
+    font-weight: bolder;
+}
+
+
+        
