@@ -93,7 +93,7 @@
 /* services section */
 #services-section{
                    display:block;
-                   height:510px;
+                   height:365px;
                    width:100%;
                    background-color:#002244;
                    /* border:2px solid black; */
@@ -107,37 +107,66 @@
     color:white;
     background-color: black;
 } 
+#image{
+    display:flex;
+    justify-content: center;
+}
 #services-section div img{
     display: block;
-    margin: auto;
+    /* margin: 50px auto; */
+    padding:15px;
+    margin:4px 0px;
     width: 245px;
     height: 175px;
 }
 #services-section div p{
     display:block;
-    width:18%;
+    width: 230px;
+    height:19px;
     text-align: center;
     margin:auto;
 } 
+#services-section .model{
+    display:block;
+    width: 230px;
+    height:35px;
+    text-align: center;
+    margin:auto;
+}
+
 #time{
     background-color: aqua;
     width:40%;
 
 }
 #services-section div img:hover{
-    width:275px;
-    height:190px;
+    width:250px;
+    height:180px;
     border:5px solid black;
 }
 .recent{
     border:2px solid orange;
-    background-image: radial-gradient(ellipse at right,lightgreen,yellow,white);
+    padding:10px;
+    height:15px;
+    background: radial-gradient( circle at center,lightgreen,yellow,white);
+  
 }
-.recent:hover{
-    border:5px solid orangered;
-    font-weight: bolder;
-   
+#recent{
+    position:absolute;
+    animation: roll 10s ease-in-out infinite forwards;
+    font-weight: bold;
+
 }
+@keyframes roll {
+                    from{
+                          width:20%;
+                    }
+                    to{
+                        width:175%;
+                    }
+    
+}
+
 .model{
     border:orange;
     background-color: rgb(160, 163, 128);
