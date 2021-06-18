@@ -146,10 +146,13 @@
     border:5px solid black;
 }
 .recent{
-    border:2px solid orange;
+    border:2px solid black;
     padding:10px;
     height:15px;
-    background: radial-gradient( circle at center,lightgreen,yellow,white);
+    color:white;
+    /* background-color:rgb(223, 10, 10); */
+    /* background: radial-gradient( circle at center,lightgreen,yellow,white); */
+    background:linear-gradient( #034a91,#034a91,#002244);  
   
 }
 #recent{
