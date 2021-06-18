@@ -73,8 +73,9 @@
 
 }
 #home-section div p{
-    padding:50px;
-    margin:5px;
+    padding: 44px;
+    margin: 9px;
+    height: 42px;
 }
 #home-section div .btn{
     color:black;
@@ -84,11 +85,11 @@
     border-radius:5px;
     cursor: pointer;
     padding:6px;
-    margin:19px;
+    margin:6px;
 }
 #home-section div .btn:hover{
     padding:9px;
-    margin:22px;
+    margin:8px;
 }
 /* services section */
 #services-section{
@@ -105,7 +106,7 @@
     text-align: center;
     margin:auto;
     color:white;
-    background-color: black;
+    background:linear-gradient(to bottom right, #080808,#333738,#aaa1a1);         
 } 
 #image{
     display:flex;
@@ -151,12 +152,12 @@
     background: radial-gradient( circle at center,lightgreen,yellow,white);
   
 }
-#recent{
+/* #recent{
     position:absolute;
     animation: roll 10s ease-in-out infinite forwards;
     font-weight: bold;
 
-}
+} */
 @keyframes roll {
                     from{
                           width:20%;
@@ -173,6 +174,80 @@
     color:black;
     font-weight: bolder;
 }
+/* customer-section */
+#customer-section{
+                   display:block;
+                   height:365px;
+                   width:100%;
+                   background:linear-gradient( #034a91,#034a91,#ccd9e6);                                                           
 
+}
+#customer-section div h1{
+    display:block;
+    width:100%;
+    text-align: center;
+    margin:auto;
+    color:white;
+    background:linear-gradient(to bottom right, #080808,#333738,#aaa1a1);  
+
+}
+#customer-section div h3{
+    display:block;
+    width: 268px;
+    height:19px;
+    text-align: center;
+    margin:auto;
+    background-color: aqua;
+   
+}
+#customer-section div h2{
+    display:block;
+    width: 209px;
+    height: 28px;
+    text-align: center;
+    margin:auto;
+    color:white;
+    background:linear-gradient(to bottom right, #080808,#333738,#aaa1a1);                    
+   
+}
+#call-form{
+    display:block;
+    text-align:center;
+    padding: 13px;
+    margin: 6px auto;
+    background:linear-gradient(to bottom right, #83dbeb,#2bace7,#06b7e4);
+    font-weight: bold;
+    width: 135px;
+    border:3px solid black;
+    border-radius: 10px;
+    
+    
+}
+#msg-form{
+    display:block;
+    text-align:center;
+    padding: 18px;
+    margin: 9px auto;
+    background:linear-gradient(to bottom right, #83dbeb,#2bace7,#06b7e4);
+    font-weight: bold;
+    width: 202px;
+    height: 171px;
+    border:3px solid black;
+    border-radius: 10px;
+}
+/* #msg-form div input{
+    border:2px solid black;
+} */
+#sub input{
+    padding: 3px;
+    margin: 5px;
+    width: 50px;
+    font-weight: bold;
+    border:3px solid black;
+    color:white;
+    background:linear-gradient(to top left, #080808,#333738,#aaa1a1);
+    border-radius:4px;
+
+}
 
         
